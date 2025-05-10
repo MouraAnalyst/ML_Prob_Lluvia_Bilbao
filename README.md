@@ -182,6 +182,21 @@ Evaluacion-ml-climabilbao/
 
 ---
 
+## ✅ Conclusión
+
+Este proyecto ha demostrado la viabilidad de predecir eventos de lluvia en Bilbao a partir de datos meteorológicos horarios reales, utilizando técnicas de Machine Learning aplicadas paso a paso.
+
+Se ha trabajado con un dataset real y complejo, que ha requerido limpieza, transformación e imputación de valores nulos. Se abordó el importante problema del desbalance de clases mediante un muestreo estratificado personalizado, y se evaluaron múltiples modelos de clasificación binaria.
+
+El modelo final —Random Forest ajustado con un threshold personalizado de 0.3— ha alcanzado un equilibrio óptimo entre precisión y sensibilidad, logrando:
+
+- AUC ≈ 0.99  
+- F1-score para lluvia ≈ 0.66  
+- Recall ≈ 0.70 para `rain = 1`
+
+Además, se implementó un sistema de predicción práctico sobre nuevos datos, abriendo la puerta a aplicaciones como sistemas de alerta temprana, dashboards o asistentes meteorológicos inteligentes.
+
+📌 Este proyecto representa una solución sólida, reproducible y extensible para tareas de predicción meteorológica local, con una base metodológica rigurosa y clara interpretación de resultados.
 
 ---
 
