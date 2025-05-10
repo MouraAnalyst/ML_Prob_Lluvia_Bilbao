@@ -45,7 +45,17 @@ Evaluacion-ml-climabilbao/
 
 ## 📊 Presentación visual del análisis exploratorio (EDA)
 
+
+### 🧩 Slide — Distribución de la variable objetivo `rain`
+
+![Distribución lluvia](images/eda-distribucion-lluvia.png)
+
+> El dataset original está fuertemente desbalanceado: solo el **1.6%** de las observaciones horarias presentan lluvia. Esta asimetría motivó la necesidad de balancear las clases antes del entrenamiento, para evitar que el modelo simplemente predijera "no llueve" siempre.
+
+---
+
 ### 🧩 Distribución de variables meteorológicas
+
 
 ![Distribución de temperatura](images/eda-temp.png)
 
@@ -199,6 +209,17 @@ Además, se implementó un sistema de predicción práctico sobre nuevos datos, 
 📌 Este proyecto representa una solución sólida, reproducible y extensible para tareas de predicción meteorológica local, con una base metodológica rigurosa y clara interpretación de resultados.
 
 ---
+
+## 🌐 Fuente de los datos
+
+Los datos meteorológicos utilizados en este proyecto fueron extraídos de la plataforma [Meteostat](https://meteostat.net).  
+Se descargaron mediante su API desde la estación de **Bilbao / Sondica** con resolución horaria entre **2000 y 2024**.
+
+> Puedes acceder al portal y explorar los datos históricos directamente desde aquí:  
+👉 [https://meteostat.net](https://meteostat.net)
+
+---
+
 
 ### Desarrollado por **Alex Moura**  
 
